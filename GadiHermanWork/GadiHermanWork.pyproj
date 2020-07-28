@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7e548907-90ca-45e8-ae6a-491f1292d34f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>lesson1.py</StartupFile>
+    <StartupFile>les5_logic.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="les5_korona.py" />
+    <Compile Include="les5_perceptron.py" />
     <Compile Include="lesson1.py" />
+    <Compile Include="lesson4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="les5_logic.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Perceptron.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
