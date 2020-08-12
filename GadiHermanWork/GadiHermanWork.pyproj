@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7e548907-90ca-45e8-ae6a-491f1292d34f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>les5_logic.py</StartupFile>
+    <StartupFile>Ex8-2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Ex8-1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ex8-2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="les5_korona.py" />
+    <Compile Include="les5_see_land.py" />
     <Compile Include="les5_perceptron.py" />
     <Compile Include="lesson1.py" />
     <Compile Include="lesson4.py">
@@ -34,9 +41,39 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Data\data\" />
+    <Folder Include="Data\test\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\data\land0.jpg" />
+    <Content Include="Data\data\land1.jpg" />
+    <Content Include="Data\data\land2.jpg" />
+    <Content Include="Data\data\land3.jpg" />
+    <Content Include="Data\data\land4.jpg" />
+    <Content Include="Data\data\land5.jpg" />
+    <Content Include="Data\data\land6.jpg" />
+    <Content Include="Data\data\land7.jpg" />
+    <Content Include="Data\data\land8.jpg" />
+    <Content Include="Data\data\land9.jpg" />
+    <Content Include="Data\data\sea0.jpg" />
+    <Content Include="Data\data\sea1.jpg" />
+    <Content Include="Data\data\sea2.jpg" />
+    <Content Include="Data\data\sea3.jpg" />
+    <Content Include="Data\data\sea4.jpg" />
+    <Content Include="Data\data\sea5.jpg" />
+    <Content Include="Data\data\sea6.jpg" />
+    <Content Include="Data\data\sea7.jpg" />
+    <Content Include="Data\data\sea8.jpg" />
+    <Content Include="Data\data\sea9.jpg" />
+    <Content Include="Data\data\train.jpg" />
     <Content Include="Data\img1.jpg" />
+    <Content Include="Data\iris_flowers.csv" />
+    <Content Include="Data\test\test0.jpg" />
+    <Content Include="Data\test\test1.jpg" />
+    <Content Include="Data\test\test2.jpg" />
+    <Content Include="Data\test\test3.jpg" />
+    <Content Include="Data\test\test4.jpg" />
+    <Content Include="Data\test\test5.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

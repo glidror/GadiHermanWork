@@ -6,6 +6,7 @@ class Perceptron(object):
         self.learningRate = learningRate
         self.weights = np.zeros(numOfInputs)
         self.bios = 1
+
     def Activation(self, s):
         if s > 0:
             activation = 1
