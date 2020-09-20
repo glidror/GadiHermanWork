@@ -1,5 +1,6 @@
 # Submited by Gad Lidror
 # Ex 8 Part 2 - KNN Iris classifications
+# cc
 # +++++++++++++++++++++++
 
 import  numpy as np
