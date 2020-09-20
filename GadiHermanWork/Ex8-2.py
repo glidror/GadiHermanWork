@@ -14,7 +14,7 @@ from    mpl_toolkits.mplot3d import Axes3D
 
 # import self implementation of Perceptron
 from Perceptron import *
-
+ 
 
 # Euclidian distance between two n-dimentional points
 # both ar np arrays
